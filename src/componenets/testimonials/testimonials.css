@@ -1,0 +1,141 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+.testimonials-wrapper {
+    width: 100%;
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.testimonials-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: #000;
+}
+
+/* Testimonial Container */
+.testimonials-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 90%;
+    max-width: 1200px;
+    gap: 30px;
+}
+
+/* Individual Testimonial Card */
+.testimonial-card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.testimonial-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid #f7c331;
+    object-fit: cover;
+    margin-bottom: 15px;
+    background-size: cover;
+    background-position: center;
+}
+
+/* First parent's image (Shilpa Kumar) */
+.first-parent-image {
+    background-image: url('../Assets/shilpa.jpg');
+}
+
+/* Second parent's image (Jasmeen Bhatia) */
+.second-parent-image {
+    background-image: url('../Assets/jasmeen.jpg');
+}
+
+.quote-icon {
+    font-size: 15rem;
+    color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: -20px;
+    left: 20px;
+}
+
+.testimonial-name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #000;
+}
+
+.testimonial-text {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .testimonials-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .quote-icon {
+        top: 10px;
+        left: 10px;
+    }
+
+    .testimonial-image {
+        width: 100px;
+        height: 100px;
+    }
+
+    .testimonial-name {
+        font-size: 1.2rem;
+    }
+
+    .testimonial-text {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonials-wrapper {
+        padding: 30px 0;
+    }
+
+    .testimonial-card {
+        width: 90%;
+        padding: 20px;
+    }
+
+    .testimonial-text {
+        font-size: 0.85rem;
+    }
+}

@@ -1,0 +1,126 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Main wrapper with purple background */
+.about-us-wrapper {
+    width: 100%;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../Assets/image.jpg');
+    background: linear-gradient(to right, #7c0b85, #38026c);
+}
+
+/* Main container */
+.about-us-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80vw;
+}
+
+/* Image section with background image from assets */
+.why-dps-image {
+    width: 35%;
+    height: 700px;
+    background-image: url('../Assets/aboutUs.jpg'); 
+    background-size: cover; 
+    background-position: center;
+    border-radius: 45px;
+    position: relative;
+}
+
+/* Text overlaid on the image */
+.why-dps-text {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -10%);
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Cards section */
+.why-dps-cards {
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card-icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    color: #ffbf00;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    color: black;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .about-us-container {
+        flex-direction: column;
+        width: 90vw;
+    }
+
+    .why-dps-image {
+        width: 100%;
+        margin-bottom: 20px;
+        height: 400px;
+    }
+
+    .why-dps-cards {
+        width: 100%;
+    }
+
+    .cards-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 768px) {
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .why-dps-text {
+        font-size: 2rem;
+    }
+
+    .card-text {
+        font-size: 1rem;
+    }
+}
