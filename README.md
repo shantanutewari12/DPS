@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Delhi Public School Website
 
 This project is a website for Delhi Public School, built using modern web technologies to provide an engaging and functional user experience.
