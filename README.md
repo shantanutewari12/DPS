@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # DPS
 I built the website for Delhi Public School using ReactJS, Shadcn, and React Bootstrap.
 =======
@@ -7,9 +8,32 @@ I built the website for Delhi Public School using ReactJS, Shadcn, and React Boo
 
 
 # Getting Started with Create React App
+=======
+# Delhi Public School Website
+>>>>>>> bc3c86cdf015d9cacdb54ba0264d977ec5161997
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a website for Delhi Public School, built using modern web technologies to provide an engaging and functional user experience.
 
+## Tech Stack
+
+- **ReactJS**: A JavaScript library for building user interfaces.
+- **Shadcn**: A component library for React.
+- **React Bootstrap**: Bootstrap components for React.
+
+## Getting Started
+
+To get started with this project locally, follow these steps:
+
+### Prerequisites
+
+- **Node.js**: Ensure you have Node.js installed on your machine. You can download it from [nodejs.org](https://nodejs.org/).
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/shantanutewari12/DPS.git
+   
 ## Available Scripts
 
 In the project directory, you can run:
