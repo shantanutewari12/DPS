@@ -2,6 +2,10 @@
 # DPS
 I built the website for Delhi Public School using ReactJS, Shadcn, and React Bootstrap.
 =======
+
+# App is hosted on :- https://delhipublicschool.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
